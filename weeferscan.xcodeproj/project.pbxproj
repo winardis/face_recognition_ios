@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B273B1F269FF2BB006E5D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */; };
+		5B273B21269FF2BB006E5D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */; };
+		5B273B23269FF2BB006E5D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B22269FF2BB006E5D8A /* ViewController.swift */; };
+		5B273B26269FF2BB006E5D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B273B24269FF2BB006E5D8A /* Main.storyboard */; };
+		5B273B28269FF2BC006E5D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B273B27269FF2BC006E5D8A /* Assets.xcassets */; };
+		5B273B2B269FF2BC006E5D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B273B29269FF2BC006E5D8A /* LaunchScreen.storyboard */; };
+		5B273B36269FF2BC006E5D8A /* weeferscanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B35269FF2BC006E5D8A /* weeferscanTests.swift */; };
+		5B273B41269FF2BC006E5D8A /* weeferscanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B40269FF2BC006E5D8A /* weeferscanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B273B32269FF2BC006E5D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B273B13269FF2BB006E5D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B273B1A269FF2BB006E5D8A;
+			remoteInfo = weeferscan;
+		};
+		5B273B3D269FF2BC006E5D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B273B13269FF2BB006E5D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B273B1A269FF2BB006E5D8A;
+			remoteInfo = weeferscan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B273B1B269FF2BB006E5D8A /* weeferscan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weeferscan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B273B22269FF2BB006E5D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B273B25269FF2BB006E5D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B273B27269FF2BC006E5D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B273B2A269FF2BC006E5D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B273B2C269FF2BC006E5D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B273B31269FF2BC006E5D8A /* weeferscanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weeferscanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B273B35269FF2BC006E5D8A /* weeferscanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeferscanTests.swift; sourceTree = "<group>"; };
+		5B273B37269FF2BC006E5D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B273B3C269FF2BC006E5D8A /* weeferscanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weeferscanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B273B40269FF2BC006E5D8A /* weeferscanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeferscanUITests.swift; sourceTree = "<group>"; };
+		5B273B42269FF2BC006E5D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B273B18269FF2BB006E5D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B273B2E269FF2BC006E5D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B273B39269FF2BC006E5D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B273B12269FF2BB006E5D8A = {
+			isa = PBXGroup;
+			children = (
+				5B273B1D269FF2BB006E5D8A /* weeferscan */,
+				5B273B34269FF2BC006E5D8A /* weeferscanTests */,
+				5B273B3F269FF2BC006E5D8A /* weeferscanUITests */,
+				5B273B1C269FF2BB006E5D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B273B1C269FF2BB006E5D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B273B1B269FF2BB006E5D8A /* weeferscan.app */,
+				5B273B31269FF2BC006E5D8A /* weeferscanTests.xctest */,
+				5B273B3C269FF2BC006E5D8A /* weeferscanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B273B1D269FF2BB006E5D8A /* weeferscan */ = {
+			isa = PBXGroup;
+			children = (
+				5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */,
+				5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */,
+				5B273B22269FF2BB006E5D8A /* ViewController.swift */,
+				5B273B24269FF2BB006E5D8A /* Main.storyboard */,
+				5B273B27269FF2BC006E5D8A /* Assets.xcassets */,
+				5B273B29269FF2BC006E5D8A /* LaunchScreen.storyboard */,
+				5B273B2C269FF2BC006E5D8A /* Info.plist */,
+			);
+			path = weeferscan;
+			sourceTree = "<group>";
+		};
+		5B273B34269FF2BC006E5D8A /* weeferscanTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B273B35269FF2BC006E5D8A /* weeferscanTests.swift */,
+				5B273B37269FF2BC006E5D8A /* Info.plist */,
+			);
+			path = weeferscanTests;
+			sourceTree = "<group>";
+		};
+		5B273B3F269FF2BC006E5D8A /* weeferscanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B273B40269FF2BC006E5D8A /* weeferscanUITests.swift */,
+				5B273B42269FF2BC006E5D8A /* Info.plist */,
+			);
+			path = weeferscanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B273B1A269FF2BB006E5D8A /* weeferscan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B273B45269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscan" */;
+			buildPhases = (
+				5B273B17269FF2BB006E5D8A /* Sources */,
+				5B273B18269FF2BB006E5D8A /* Frameworks */,
+				5B273B19269FF2BB006E5D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weeferscan;
+			productName = weeferscan;
+			productReference = 5B273B1B269FF2BB006E5D8A /* weeferscan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B273B30269FF2BC006E5D8A /* weeferscanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B273B48269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscanTests" */;
+			buildPhases = (
+				5B273B2D269FF2BC006E5D8A /* Sources */,
+				5B273B2E269FF2BC006E5D8A /* Frameworks */,
+				5B273B2F269FF2BC006E5D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B273B33269FF2BC006E5D8A /* PBXTargetDependency */,
+			);
+			name = weeferscanTests;
+			productName = weeferscanTests;
+			productReference = 5B273B31269FF2BC006E5D8A /* weeferscanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B273B3B269FF2BC006E5D8A /* weeferscanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B273B4B269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscanUITests" */;
+			buildPhases = (
+				5B273B38269FF2BC006E5D8A /* Sources */,
+				5B273B39269FF2BC006E5D8A /* Frameworks */,
+				5B273B3A269FF2BC006E5D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B273B3E269FF2BC006E5D8A /* PBXTargetDependency */,
+			);
+			name = weeferscanUITests;
+			productName = weeferscanUITests;
+			productReference = 5B273B3C269FF2BC006E5D8A /* weeferscanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B273B13269FF2BB006E5D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5B273B1A269FF2BB006E5D8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5B273B30269FF2BC006E5D8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5B273B1A269FF2BB006E5D8A;
+					};
+					5B273B3B269FF2BC006E5D8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5B273B1A269FF2BB006E5D8A;
+					};
+				};
+			};
+			buildConfigurationList = 5B273B16269FF2BB006E5D8A /* Build configuration list for PBXProject "weeferscan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B273B12269FF2BB006E5D8A;
+			productRefGroup = 5B273B1C269FF2BB006E5D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B273B1A269FF2BB006E5D8A /* weeferscan */,
+				5B273B30269FF2BC006E5D8A /* weeferscanTests */,
+				5B273B3B269FF2BC006E5D8A /* weeferscanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B273B19269FF2BB006E5D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B273B2B269FF2BC006E5D8A /* LaunchScreen.storyboard in Resources */,
+				5B273B28269FF2BC006E5D8A /* Assets.xcassets in Resources */,
+				5B273B26269FF2BB006E5D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B273B2F269FF2BC006E5D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B273B3A269FF2BC006E5D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B273B17269FF2BB006E5D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B273B23269FF2BB006E5D8A /* ViewController.swift in Sources */,
+				5B273B1F269FF2BB006E5D8A /* AppDelegate.swift in Sources */,
+				5B273B21269FF2BB006E5D8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B273B2D269FF2BC006E5D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B273B36269FF2BC006E5D8A /* weeferscanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B273B38269FF2BC006E5D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B273B41269FF2BC006E5D8A /* weeferscanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B273B33269FF2BC006E5D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B273B1A269FF2BB006E5D8A /* weeferscan */;
+			targetProxy = 5B273B32269FF2BC006E5D8A /* PBXContainerItemProxy */;
+		};
+		5B273B3E269FF2BC006E5D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B273B1A269FF2BB006E5D8A /* weeferscan */;
+			targetProxy = 5B273B3D269FF2BC006E5D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B273B24269FF2BB006E5D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B273B25269FF2BB006E5D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B273B29269FF2BC006E5D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B273B2A269FF2BC006E5D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B273B43269FF2BC006E5D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B273B44269FF2BC006E5D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B273B46269FF2BC006E5D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW6846PR5B;
+				INFOPLIST_FILE = weeferscan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B273B47269FF2BC006E5D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW6846PR5B;
+				INFOPLIST_FILE = weeferscan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B273B49269FF2BC006E5D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW6846PR5B;
+				INFOPLIST_FILE = weeferscanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weeferscan.app/weeferscan";
+			};
+			name = Debug;
+		};
+		5B273B4A269FF2BC006E5D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW6846PR5B;
+				INFOPLIST_FILE = weeferscanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weeferscan.app/weeferscan";
+			};
+			name = Release;
+		};
+		5B273B4C269FF2BC006E5D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW6846PR5B;
+				INFOPLIST_FILE = weeferscanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = weeferscan;
+			};
+			name = Debug;
+		};
+		5B273B4D269FF2BC006E5D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW6846PR5B;
+				INFOPLIST_FILE = weeferscanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = weeferscan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B273B16269FF2BB006E5D8A /* Build configuration list for PBXProject "weeferscan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B273B43269FF2BC006E5D8A /* Debug */,
+				5B273B44269FF2BC006E5D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B273B45269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B273B46269FF2BC006E5D8A /* Debug */,
+				5B273B47269FF2BC006E5D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B273B48269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B273B49269FF2BC006E5D8A /* Debug */,
+				5B273B4A269FF2BC006E5D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B273B4B269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B273B4C269FF2BC006E5D8A /* Debug */,
+				5B273B4D269FF2BC006E5D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B273B13269FF2BB006E5D8A /* Project object */;
+}
