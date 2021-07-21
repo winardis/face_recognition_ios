@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1334675D35F23FBFB34947B6 /* Pods_weeferscanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE8B7C1C7B8CB61EFDDE4DC /* Pods_weeferscanTests.framework */; };
 		5B273B1F269FF2BB006E5D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */; };
 		5B273B21269FF2BB006E5D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */; };
 		5B273B23269FF2BB006E5D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B22269FF2BB006E5D8A /* ViewController.swift */; };
@@ -15,6 +16,11 @@
 		5B273B2B269FF2BC006E5D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B273B29269FF2BC006E5D8A /* LaunchScreen.storyboard */; };
 		5B273B36269FF2BC006E5D8A /* weeferscanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B35269FF2BC006E5D8A /* weeferscanTests.swift */; };
 		5B273B41269FF2BC006E5D8A /* weeferscanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B40269FF2BC006E5D8A /* weeferscanUITests.swift */; };
+		5B7EC62326A00D8200D773E3 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EC62026A00D8200D773E3 /* UIUtilities.swift */; };
+		5B7EC62426A00D8200D773E3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EC62126A00D8200D773E3 /* CameraViewController.swift */; };
+		5B7EC62526A00D8200D773E3 /* MLKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EC62226A00D8200D773E3 /* MLKitExtensions.swift */; };
+		A725C1EFD20192EE70C3FF42 /* Pods_weeferscan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5664F8E6F12DD20264F36073 /* Pods_weeferscan.framework */; };
+		C0B34F6E11EAA13A5090CDD9 /* Pods_weeferscan_weeferscanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2CBE58A8B024DECB6B3490 /* Pods_weeferscan_weeferscanUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36675366E12CB525E5CCFC36 /* Pods-weeferscan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscan.debug.xcconfig"; path = "Target Support Files/Pods-weeferscan/Pods-weeferscan.debug.xcconfig"; sourceTree = "<group>"; };
+		4193329B88F492681BBD87C2 /* Pods-weeferscanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscanTests.debug.xcconfig"; path = "Target Support Files/Pods-weeferscanTests/Pods-weeferscanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5664F8E6F12DD20264F36073 /* Pods_weeferscan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weeferscan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B273B1B269FF2BB006E5D8A /* weeferscan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weeferscan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		5B273B3C269FF2BC006E5D8A /* weeferscanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weeferscanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B273B40269FF2BC006E5D8A /* weeferscanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeferscanUITests.swift; sourceTree = "<group>"; };
 		5B273B42269FF2BC006E5D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7EC62026A00D8200D773E3 /* UIUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		5B7EC62126A00D8200D773E3 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5B7EC62226A00D8200D773E3 /* MLKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLKitExtensions.swift; sourceTree = "<group>"; };
+		937EC1539B71B9CA2AEEE2E5 /* Pods-weeferscan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscan.release.xcconfig"; path = "Target Support Files/Pods-weeferscan/Pods-weeferscan.release.xcconfig"; sourceTree = "<group>"; };
+		B87C0A8F7C6457EFBE9D5464 /* Pods-weeferscan-weeferscanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscan-weeferscanUITests.debug.xcconfig"; path = "Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C23BAEFE2CBCAB59C9B59C43 /* Pods-weeferscanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscanTests.release.xcconfig"; path = "Target Support Files/Pods-weeferscanTests/Pods-weeferscanTests.release.xcconfig"; sourceTree = "<group>"; };
+		DDE8B7C1C7B8CB61EFDDE4DC /* Pods_weeferscanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weeferscanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2CBE58A8B024DECB6B3490 /* Pods_weeferscan_weeferscanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weeferscan_weeferscanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F5DDD57FF60DBE4A2B7FF7 /* Pods-weeferscan-weeferscanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscan-weeferscanUITests.release.xcconfig"; path = "Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A725C1EFD20192EE70C3FF42 /* Pods_weeferscan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1334675D35F23FBFB34947B6 /* Pods_weeferscanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B34F6E11EAA13A5090CDD9 /* Pods_weeferscan_weeferscanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		103A4A1675FEAE58ECF07257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5664F8E6F12DD20264F36073 /* Pods_weeferscan.framework */,
+				EE2CBE58A8B024DECB6B3490 /* Pods_weeferscan_weeferscanUITests.framework */,
+				DDE8B7C1C7B8CB61EFDDE4DC /* Pods_weeferscanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B273B12269FF2BB006E5D8A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				5B273B34269FF2BC006E5D8A /* weeferscanTests */,
 				5B273B3F269FF2BC006E5D8A /* weeferscanUITests */,
 				5B273B1C269FF2BB006E5D8A /* Products */,
+				979E1E06D6DA79BE83644104 /* Pods */,
+				103A4A1675FEAE58ECF07257 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +132,9 @@
 		5B273B1D269FF2BB006E5D8A /* weeferscan */ = {
 			isa = PBXGroup;
 			children = (
+				5B7EC62126A00D8200D773E3 /* CameraViewController.swift */,
+				5B7EC62226A00D8200D773E3 /* MLKitExtensions.swift */,
+				5B7EC62026A00D8200D773E3 /* UIUtilities.swift */,
 				5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */,
 				5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */,
 				5B273B22269FF2BB006E5D8A /* ViewController.swift */,
@@ -128,6 +164,19 @@
 			path = weeferscanUITests;
 			sourceTree = "<group>";
 		};
+		979E1E06D6DA79BE83644104 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36675366E12CB525E5CCFC36 /* Pods-weeferscan.debug.xcconfig */,
+				937EC1539B71B9CA2AEEE2E5 /* Pods-weeferscan.release.xcconfig */,
+				B87C0A8F7C6457EFBE9D5464 /* Pods-weeferscan-weeferscanUITests.debug.xcconfig */,
+				F3F5DDD57FF60DBE4A2B7FF7 /* Pods-weeferscan-weeferscanUITests.release.xcconfig */,
+				4193329B88F492681BBD87C2 /* Pods-weeferscanTests.debug.xcconfig */,
+				C23BAEFE2CBCAB59C9B59C43 /* Pods-weeferscanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B273B45269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscan" */;
 			buildPhases = (
+				C601946B148C6687347D2B6B /* [CP] Check Pods Manifest.lock */,
 				5B273B17269FF2BB006E5D8A /* Sources */,
 				5B273B18269FF2BB006E5D8A /* Frameworks */,
 				5B273B19269FF2BB006E5D8A /* Resources */,
+				6F8E81654C12F8B264FA19C7 /* [CP] Embed Pods Frameworks */,
+				1AFBDA2DFDD87D2C182EAD43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B273B48269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscanTests" */;
 			buildPhases = (
+				52DA9BE61BB08002A5F84914 /* [CP] Check Pods Manifest.lock */,
 				5B273B2D269FF2BC006E5D8A /* Sources */,
 				5B273B2E269FF2BC006E5D8A /* Frameworks */,
 				5B273B2F269FF2BC006E5D8A /* Resources */,
@@ -170,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B273B4B269FF2BC006E5D8A /* Build configuration list for PBXNativeTarget "weeferscanUITests" */;
 			buildPhases = (
+				23DB0E50CC348206DC480A4E /* [CP] Check Pods Manifest.lock */,
 				5B273B38269FF2BC006E5D8A /* Sources */,
 				5B273B39269FF2BC006E5D8A /* Frameworks */,
 				5B273B3A269FF2BC006E5D8A /* Resources */,
+				12784702D240BA6B62BA8C39 /* [CP] Embed Pods Frameworks */,
+				34CA57F676C6FA3F26374465 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,14 +309,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12784702D240BA6B62BA8C39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AFBDA2DFDD87D2C182EAD43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan/Pods-weeferscan-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan/Pods-weeferscan-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weeferscan/Pods-weeferscan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23DB0E50CC348206DC480A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weeferscan-weeferscanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34CA57F676C6FA3F26374465 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weeferscan-weeferscanUITests/Pods-weeferscan-weeferscanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52DA9BE61BB08002A5F84914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weeferscanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8E81654C12F8B264FA19C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan/Pods-weeferscan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weeferscan/Pods-weeferscan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weeferscan/Pods-weeferscan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C601946B148C6687347D2B6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weeferscan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B273B17269FF2BB006E5D8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B273B23269FF2BB006E5D8A /* ViewController.swift in Sources */,
+				5B7EC62426A00D8200D773E3 /* CameraViewController.swift in Sources */,
 				5B273B1F269FF2BB006E5D8A /* AppDelegate.swift in Sources */,
+				5B7EC62326A00D8200D773E3 /* UIUtilities.swift in Sources */,
 				5B273B21269FF2BB006E5D8A /* SceneDelegate.swift in Sources */,
+				5B7EC62526A00D8200D773E3 /* MLKitExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +629,7 @@
 		};
 		5B273B46269FF2BC006E5D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36675366E12CB525E5CCFC36 /* Pods-weeferscan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +640,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +649,7 @@
 		};
 		5B273B47269FF2BC006E5D8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937EC1539B71B9CA2AEEE2E5 /* Pods-weeferscan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,7 +660,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner.weeferscan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weefer.winscanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,6 +669,7 @@
 		};
 		5B273B49269FF2BC006E5D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4193329B88F492681BBD87C2 /* Pods-weeferscanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +692,7 @@
 		};
 		5B273B4A269FF2BC006E5D8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23BAEFE2CBCAB59C9B59C43 /* Pods-weeferscanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +715,7 @@
 		};
 		5B273B4C269FF2BC006E5D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87C0A8F7C6457EFBE9D5464 /* Pods-weeferscan-weeferscanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +736,7 @@
 		};
 		5B273B4D269FF2BC006E5D8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F5DDD57FF60DBE4A2B7FF7 /* Pods-weeferscan-weeferscanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
