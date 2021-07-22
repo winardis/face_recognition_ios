@@ -16,6 +16,7 @@ target 'weeferscan' do
   pod 'GoogleMLKit/PoseDetectionAccurate'
   pod 'GoogleMLKit/SegmentationSelfie'
   pod 'GoogleMLKit/TextRecognition'
+  pod 'TensorFlowLiteSwift'
 
   target 'weeferscanTests' do
     inherit! :search_paths

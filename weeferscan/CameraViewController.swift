@@ -367,7 +367,13 @@ class CameraViewController: UIViewController {
             }
             
             var matchingResult : Int = 0
+            
+            print("----------face----------")
+            print(String(decoding: faces, as: UTF8.self))
+            print("-----------------------")
             for face: Face in faces {
+                
+                let frame = face.frame
                 //asdf FACE DETECTED
                 print("face.contours")
                 print("face.contours.count \(face.contours.count)")
@@ -380,9 +386,8 @@ class CameraViewController: UIViewController {
                 print(userFace?.contours ?? "nil on userFace.contours")
                 print("-----------------------")
                 print(" ")
-                print("----------face----------")
-                print(face)
-                print("-----------------------")
+                
+                
                 
                 
                 if(face.contours.count > 0 && userFace?.contours.count ?? 0 > 0){

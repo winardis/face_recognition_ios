@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1334675D35F23FBFB34947B6 /* Pods_weeferscanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE8B7C1C7B8CB61EFDDE4DC /* Pods_weeferscanTests.framework */; };
+		5B078DE426A7E17C00C1A660 /* FaceVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B078DE326A7E17C00C1A660 /* FaceVerification.swift */; };
+		5B078DE926A805D400C1A660 /* ModelFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B078DE826A805D400C1A660 /* ModelFace.swift */; };
+		5B078DEE26A80B9F00C1A660 /* InterfaceValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B078DED26A80B9F00C1A660 /* InterfaceValidation.swift */; };
 		5B273B1F269FF2BB006E5D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */; };
 		5B273B21269FF2BB006E5D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */; };
 		5B273B23269FF2BB006E5D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B273B22269FF2BB006E5D8A /* ViewController.swift */; };
@@ -44,6 +47,9 @@
 		36675366E12CB525E5CCFC36 /* Pods-weeferscan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscan.debug.xcconfig"; path = "Target Support Files/Pods-weeferscan/Pods-weeferscan.debug.xcconfig"; sourceTree = "<group>"; };
 		4193329B88F492681BBD87C2 /* Pods-weeferscanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weeferscanTests.debug.xcconfig"; path = "Target Support Files/Pods-weeferscanTests/Pods-weeferscanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5664F8E6F12DD20264F36073 /* Pods_weeferscan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weeferscan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B078DE326A7E17C00C1A660 /* FaceVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceVerification.swift; sourceTree = "<group>"; };
+		5B078DE826A805D400C1A660 /* ModelFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFace.swift; sourceTree = "<group>"; };
+		5B078DED26A80B9F00C1A660 /* InterfaceValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceValidation.swift; sourceTree = "<group>"; };
 		5B273B1B269FF2BB006E5D8A /* weeferscan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weeferscan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B273B1E269FF2BB006E5D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B273B20269FF2BB006E5D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +148,9 @@
 				5B273B27269FF2BC006E5D8A /* Assets.xcassets */,
 				5B273B29269FF2BC006E5D8A /* LaunchScreen.storyboard */,
 				5B273B2C269FF2BC006E5D8A /* Info.plist */,
+				5B078DE326A7E17C00C1A660 /* FaceVerification.swift */,
+				5B078DE826A805D400C1A660 /* ModelFace.swift */,
+				5B078DED26A80B9F00C1A660 /* InterfaceValidation.swift */,
 			);
 			path = weeferscan;
 			sourceTree = "<group>";
@@ -453,9 +462,12 @@
 			files = (
 				5B273B23269FF2BB006E5D8A /* ViewController.swift in Sources */,
 				5B7EC62426A00D8200D773E3 /* CameraViewController.swift in Sources */,
+				5B078DE926A805D400C1A660 /* ModelFace.swift in Sources */,
 				5B273B1F269FF2BB006E5D8A /* AppDelegate.swift in Sources */,
 				5B7EC62326A00D8200D773E3 /* UIUtilities.swift in Sources */,
+				5B078DEE26A80B9F00C1A660 /* InterfaceValidation.swift in Sources */,
 				5B273B21269FF2BB006E5D8A /* SceneDelegate.swift in Sources */,
+				5B078DE426A7E17C00C1A660 /* FaceVerification.swift in Sources */,
 				5B7EC62526A00D8200D773E3 /* MLKitExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
